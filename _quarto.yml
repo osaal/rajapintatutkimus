@@ -14,6 +14,7 @@ book:
   repo-url: https://github.com/osaal/rajapintatutkimus
   repo-actions: [issue, source]
   sidebar:
+    title: "Rajapintojen käyttö ihmis- ja yhteiskunta-tutkimuksessa"
     style: docked
     contents: auto
 
@@ -21,6 +22,7 @@ bibliography: references.bib
 
 format:
   html:
+    lang: fi
     theme:
       light: flatly
       dark: darkly

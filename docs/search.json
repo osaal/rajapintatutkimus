@@ -4,9 +4,39 @@
     "href": "index.html",
     "title": "Rajapintojen käyttö ihmis- ja yhteiskuntatutkimuksessa",
     "section": "",
-    "text": "Preface\nThis is a Quarto book.\nTo learn more about Quarto books visit https://quarto.org/docs/books.\n\n1 + 1\n\n[1] 2",
+    "text": "Esipuhe\nKirjan versio: 0.1\nTervetuloa verkkokirjaan Rajapintojen käyttö ihmis- ja yhteiskuntatutkimuksessa. Kirjan tarkoituksena on esittää, miten erilaisia rajapintoja voidaan käyttää suomalaisessa tutkimuskontekstissa.\nNykyään verkkossa on suuria määriä dataa, jota voitaisiin käyttää tutkimustarkoituksessa. Myös Suomessa julkaistaan erittäin paljon dataa avoimesti verkkoon: erimerkkeinä voidaan pitää opinnäytetöitä ja avoimia tutkimusartikkeleita, liikennedataa, kirjastojen metadataa, poliittisen päätöksenteon valmisteludokumentit, eduskunnan äänestys- ja keskusteludataa, ja niin eteenpäin.\nUseimmiten tätä dataa käsitellään rajapintojen avulla. Rajapinta (englanniksi application protocol interface eli API) on työkalu, jolla datan omistaja voi avata datan muille käyttäjille. Rajapinnat eroavat perinteisistä hakukoneista tai julkaisuluetteloista erityisesti, koska rajapinnat mahdollistavat koneellisen hakemisen, latauksen ja datan käsittelyn. Rajapinnan avulla voidaan esimerkiksi hakea tuhansia opinnäytteitä yhdellä koodinpätkällä, koko Suomen junaliikenteen metatiedot tietyltä vuodelta, kaikki eduskunnan puheenvuorot jotka liittyvät toimeentulotukeen, ja niin eteenpäin - ilman, että tutkija joutuisi keräämään tulokset käsin.\nRajapinnat kuitenkin ovat ensisijaisesti toteutettuja datatutkijoille ja ohjelmistokehittäjille. Rajapintojen käyttö vaatii jonkun verran teknistä osaamista ja ymmärrystä data-arkkitehtuureista, HTML-pohjaisista kutsukomennoista ja ohjelmoinnista. Tämän kirjan avulla opit ymmärtämään kaikkia näitä. Konkreettisten harjoituksen avulla opit hakemaan tietoa eri tietokantojen rajapinnoista ja muovaamaan tätä tietoa ihmisluettavaan ja jatkokäsiteltävään muotoon.",
     "crumbs": [
-      "Preface"
+      "Esipuhe"
+    ]
+  },
+  {
+    "objectID": "index.html#mitä-kirja-ei-käsittele",
+    "href": "index.html#mitä-kirja-ei-käsittele",
+    "title": "Rajapintojen käyttö ihmis- ja yhteiskuntatutkimuksessa",
+    "section": "Mitä kirja ei käsittele",
+    "text": "Mitä kirja ei käsittele\nJotta aloittaminen olisi helppoa, yritän tiivistää, mitä kaikkea tämä kirja ei pidä sisällään. Kirja ei tule opettamaan sinulle:\n\nEri ohjelmointikieliä: Kirjassa käytetään R-ohjelmointikieltä. R on erittäin suosittu ohjelmointikieli tilastolliseen tutkimukseen, ja sen lisäksi ilmainen. Jos osaat jonkun toisen ohjelmointikielen (esim. JavaScript, Python tai jopa C-kielen), voit joutua selvittämään, miten tietyt asiat toteutetaan juuri sinun kielessäsi. Kirjan tarkoitus on kuitenkin opettaa rajapintojen yleiset toiminta- ja käyttötavat, jolloin opit ovat jokseenkin kieliagnostisia.\nR-kielen syvällisen osaamisen: Kirjassa oletetaan, että osaat R-ohjelmointikielen peruskäytön. Jos olet täysin aloittelija R-ohjelmointikielellä (tai ohjelmoinnissa ylipäätäänsä), kirjan liitteissä on R-kielen peruskurssi yhtenä lukuna. Ohjelmointia ei kuitenkaan opi vain lukemalla yhden luvun verkkokirjasta, ohjelmointi vaatii harjoittelua ja lisää harjoittelua. Voit päästä alkuun tällä kirjalla, mutta suosittelen tutustumaan muuhun R-kielen kirjallisuuteen tai käymään R-kielen peruskurssin omavalintaisella yliopistolla tai ammattikorkeakoululla.\nTiettyjen rajapintojen toimintamallit: Rajapintoja on pilvin pimein. Kirjoitushetkenä Avoindata.fi-palvelussa on 68 eri rajapintaa - ja nämä kattavat vain joitain suomalaisten tietokantojen rajapinnoista! Täydellinen listaus kaikista rajapinnoista on mahdotonta tehdä, saatikka niiden yksityiskohtainen käsittely, yhdessä verkkokirjassa. Kirjan tarkoituksena on opettaa rajapintojen käytön periaatteet esimerkein, jotta voit itse soveltaa näitä periaatteita kiinnostuksesi kohteena olevassa rajapinnassa.",
+    "crumbs": [
+      "Esipuhe"
+    ]
+  },
+  {
+    "objectID": "index.html#viittaaminen",
+    "href": "index.html#viittaaminen",
+    "title": "Rajapintojen käyttö ihmis- ja yhteiskuntatutkimuksessa",
+    "section": "Viittaaminen",
+    "text": "Viittaaminen\nVoit viitata tähän kirjaan muodossa:\n\nSaal, Oliver (2024). Rajapintojen käyttö ihmis- ja yhteiskuntatutkimuksessa. [Versio 0.1]. https://osaal.github.io/rajapintatutkimus/.",
+    "crumbs": [
+      "Esipuhe"
+    ]
+  },
+  {
+    "objectID": "index.html#uusin-päivitys",
+    "href": "index.html#uusin-päivitys",
+    "title": "Rajapintojen käyttö ihmis- ja yhteiskuntatutkimuksessa",
+    "section": "Uusin päivitys",
+    "text": "Uusin päivitys\n\n0.1\nJulkaisupäivämäärä: 17.3.2024\n\nKirjan ensimmäinen versio julkaistu.\nSisällyksenä vain esipuhe tällä hetkellä.\nKirjan runko rakennettu.",
+    "crumbs": [
+      "Esipuhe"
     ]
   }
 ]

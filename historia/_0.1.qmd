@@ -1,0 +1,7 @@
+### 0.1
+
+**Julkaisupäivämäärä**: 17.3.2024
+
+-  Kirjan ensimmäinen versio julkaistu.
+-  Sisällyksenä vain esipuhe tällä hetkellä.
+-  Kirjan runko rakennettu.
