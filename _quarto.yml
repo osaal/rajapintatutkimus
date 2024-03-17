@@ -1,23 +1,26 @@
 project:
   type: book
+  output-dir: docs
 
 book:
-  title: "rajapintatutkimus"
-  author: "Norah Jones"
-  date: "17/03/2024"
+  title: "Rajapintojen käyttö ihmis- ja yhteiskuntatutkimuksessa"
+  author: "Oliver Saal"
+  date: last-modified
   chapters:
     - index.qmd
-    - intro.qmd
-    - summary.qmd
     - references.qmd
+  page-navigation: true
+  search: true
+  repo-url: https://github.com/osaal/rajapintatutkimus
+  repo-actions: [issue, source]
+  sidebar:
+    style: docked
+    contents: auto
 
 bibliography: references.bib
 
 format:
   html:
-    theme: cosmo
-  pdf:
-    documentclass: scrreprt
-
-
-
+    theme:
+      light: flatly
+      dark: darkly
